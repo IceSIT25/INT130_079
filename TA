@@ -1,0 +1,24 @@
+<body>
+    <div id="container">
+        <div id="animated-box">
+            ชื่อ นายต่อศักดิ์ โรจนกรินทร์ รหัส 67130500079
+        </div>
+        <div class="controls">
+            <input type="text" id="text-input" placeholder="เปลี่ยนข้อความที่นี่" />
+            <select id="color-picker">
+                <option value="red">สีแดง</option>
+                <option value="blue">สีน้ำเงิน</option>
+                <option value="green">สีเขียว</option>
+                <option value="yellow">สีเหลือง</option>
+                <option value="purple">สีม่วง</option>
+            </select>
+            <select id="animation-picker">
+                <option value="wave">ขยับเป็นคลื่น</option>
+                <option value="left-right">ขยับซ้ายขวา</option>
+                <option value="up-down">ขยับขึ้นลง</option>
+            </select>
+            <button id="apply-changes">ใช้การเปลี่ยนแปลง</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
