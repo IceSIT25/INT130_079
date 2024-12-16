@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BuuBee.com</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background: url(https://i.pinimg.com/originals/56/73/6e/56736e99269e9e1fe8eed4b8b911644e.gif);
+            background-size: cover;
+            
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 3em;
+            color: #ff69b4;
+            margin: 20px 0;
+        }
+
+        .intro {
+            font-size: 1.5em;
+            color: whitesmoke;
+            margin: 10px 0;
+        }
+
+        .profile-image {
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border: 5px solid #ff69b4;
+            margin-bottom: 20px;
+        }
+
+        .button {
+            background-color: #ff69b4;
+            color: #CCFFFF;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+            margin-top: 20px;
+            transition: background-color 0.3s;
+        }
+
+        .button:hover {
+            background-color: #ff1493;
+        }
+
+        
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- รูปภาพของคุณ -->
+        <img src="https://img1.picmix.com/output/stamp/normal/4/7/7/9/2199774_93fb2.gif" alt="รูปของฉัน" class="profile-image">
+
+        <!-- ชื่อ -->
+        <h1>สวัสดีค่ะ! ฉันชื่อ ธนวิชญ์ กุณฑล 087</h1>
+
+        <!-- คำแนะนำตัว -->
+        <p class="intro">ยินดีที่ได้รู้จักนะคะ ฉันเป็น นางฟ้า ที่หลงใหลใน คาปิบาร่า</p>
+        
+    </div>
+
+</body>
+</html>
